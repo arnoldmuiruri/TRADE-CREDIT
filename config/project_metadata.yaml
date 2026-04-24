@@ -1,0 +1,9 @@
+# Project metadata 
+project:
+  name: trade-credit-risk-scorer
+  version: "1.0.0"
+  description: >
+    Buyer risk grading system for trade credit insurance underwriting.
+    Scores companies 1–10 based on SEC financial data, computes
+    recommended credit limits, premium estimates, and portfolio
+    concentration flags.

@@ -1,0 +1,86 @@
+
+# Companies SEC tickers and CIKs for data collection and analysis. Organized by industry sector.
+# CIK: SEC Central Index Key — find at https://www.sec.gov/cgi-bin/browse-edgar
+
+
+companies:
+
+  retail:
+    - name: "Macy's Inc"
+      ticker: M
+      cik: "0000794170"
+    - name: "Kohl's Corporation"
+      ticker: KSS
+      cik: "0000885639"
+    - name: "Dollar Tree Inc"
+      ticker: DLTR
+      cik: "0000935703"
+    - name: "Gap Inc"
+      ticker: GAP
+      cik: "0000039911"
+    - name: "Nordstrom Inc"
+      ticker: JWN
+      cik: "0000072333"
+    - name: "Big Lots Inc"
+      ticker: BIG
+      cik: "0000768835"
+
+  construction:
+    - name: "Fluor Corporation"
+      ticker: FLR
+      cik: "0001166928"
+    - name: "Tutor Perini Corporation"
+      ticker: TPC
+      cik: "0000077449"
+    - name: "MYR Group Inc"
+      ticker: MYRG
+      cik: "0001442236"
+    - name: "Granite Construction"
+      ticker: GVA
+      cik: "0000861459"
+    - name: "Primoris Services"
+      ticker: PRIM
+      cik: "0001361538"
+    - name: "Comfort Systems USA"
+      ticker: FIX
+      cik: "0001060349"
+
+  manufacturing:
+    - name: "3M Company"
+      ticker: MMM
+      cik: "0000066740"
+    - name: "Whirlpool Corporation"
+      ticker: WHR
+      cik: "0000106640"
+    - name: "Xerox Holdings"
+      ticker: XRX
+      cik: "0001770523"
+    - name: "Haynes International"
+      ticker: HAYN
+      cik: "0000046080"
+    - name: "Watts Water Technologies"
+      ticker: WTS
+      cik: "0000108312"
+    - name: "Insteel Industries"
+      ticker: IIIN
+      cik: "0000764401"
+
+  energy:
+    - name: "Sunoco LP"
+      ticker: SUN
+      cik: "0001552275"
+    - name: "Callon Petroleum"
+      ticker: CPE
+      cik: "0000928054"
+    - name: "Ranger Oil Corporation"
+      ticker: ROCC
+      cik: "0001792789"
+    - name: "Par Pacific Holdings"
+      ticker: PARR
+      cik: "0001383312"
+    - name: "Solaris Oilfield Infrastructure"
+      ticker: SOI
+      cik: "0001682063"
+    - name: "Archrock Inc"
+      ticker: AROC
+      cik: "0001389050"
