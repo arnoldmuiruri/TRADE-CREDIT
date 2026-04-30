@@ -1,0 +1,56 @@
+#SEC EDGAR API settings
+edgar:
+  base_url: "https://data.sec.gov/api/xbrl/companyfacts"
+  submissions_url: "https://data.sec.gov/submissions"
+  user_agent_template: "TradeCredit-RiskScorer {email}"  # email from .env
+  request_delay_seconds: 0.15   
+  years_of_history: 5           # pull 5 annual filings per company
+ 
+# ── XBRL line items to extract from each 10-K ───────────────
+# These map to standard US-GAAP concept names in the EDGAR API
+edgar_concepts:
+  balance_sheet:
+    - Assets
+    - Liabilities
+    - StockholdersEquity
+    - CurrentAssets
+    - CurrentLiabilities
+    - AccountsReceivableNetCurrent
+    - AccountsPayableCurrent
+    - LongTermDebt
+    - PropertyPlantAndEquipmentNet       
+ 
+  income_statement:
+    - Revenues
+    - CostOfGoodsAndServicesSold
+    - OperatingIncomeLoss
+    - NetIncomeLoss
+    - InterestExpense
+#SEC EDGAR API settings
+edgar:
+  base_url: "https://data.sec.gov/api/xbrl/companyfacts"
+  submissions_url: "https://data.sec.gov/submissions"
+  user_agent_template: "TradeCredit-RiskScorer {email}"  # email from .env
+  request_delay_seconds: 0.15   
+  years_of_history: 5           # pull 5 annual filings per company
+ 
+# ── XBRL line items to extract from each 10-K ───────────────
+# These map to standard US-GAAP concept names in the EDGAR API
+edgar_concepts:
+  balance_sheet:
+    - Assets
+    - Liabilities
+    - StockholdersEquity
+    - CurrentAssets
+    - CurrentLiabilities
+    - AccountsReceivableNetCurrent
+    - AccountsPayableCurrent
+    - LongTermDebt
+    - PropertyPlantAndEquipmentNet       
+ 
+  income_statement:
+    - Revenues
+    - CostOfGoodsAndServicesSold
+    - OperatingIncomeLoss
+    - NetIncomeLoss
+    - InterestExpense
